@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.button-add-enterprise {
+  height: 56px;
+  border-radius: 35px 4px 4px 35px;
+  border: 1px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+
+  .text-add-enterprise {
+    width: 100%;
+    margin: auto;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+  }
+}
+
+.register_company {
+  font-family: "Jost", sans-serif;
+  //styleName: Subtitle 1;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.modal-start {
+  width: 360px;
+  height: 388px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.closer-button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: -1px;
+  right: 0px;
+
+  img {
+    width: 20px;
+  }
+}
+.custom-navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 32px;
+}
+
+.user-box {
+  display: flex;
+  align-items: center;
+  flex: 180px 1;
+
+  span {
+    margin-right: 13px;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: right;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.search-box {
+  width: 25em;
+
+  img {
+    position: relative;
+    left: -40px;
+    cursor: pointer;
+  }
+}
+
+.listed-enterprise {
+  border-style: none;
+  margin-bottom: 20px !important;
+  border-radius: 35px 4px 4px 35px;
+  width: 7%;
+
+  img {
+    margin-top: 5px;
+    cursor: pointer;
+  }
+}
+
+.enterprise-data {
+  margin-bottom: 20px !important ;
+  font-family: "Roboto", sans-serif;
+  border-style: none;
+  p {
+    margin-bottom: 3px;
+  }
+}
+
+.text-jost {
+  font-family: "Jost", sans-serif;
+  color: #969696;
+}
+
+.text-local {
+  font-size: 20px;
+}
+
+.modal-size {
+  height: 90vh;
+}
+
+.label-form {
+  color: #630a37;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-register {
+  background-color: #630a37;
+  border-radius: 7px;
+  color: #f7f7f7;
+  padding: 7px;
+}
+
+.btn-cancel {
+  background-color: #f7f7f7;
+  color: #c7c9cc;
+  font-weight: bold;
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid #c7c9cc;
+}
+
+.trash-button {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid #c7c9cc;
+  border-radius: 8px;
+  margin-left: 12px;
+}
+
+.modal-footer-custom {
+  flex-wrap: nowrap !important;
+  border: none;
+}
+
+.name-container {
+  border-radius: 1px;
+}
+
+.custom-modal-header {
+  padding: 0px !important;
+  position: relative;
+}
+
+.table-item {
+  border-collapse: separate;
+  border-spacing: 0 0.5em;
+}
+
+@media (max-width: 768px) {
+  .sm-block {
+    display: block;
+    opacity: 0;
+    line-height: 1px;
+  }
+
+  .listed-enterprise img {
+    margin-top: 15px;
+  }
+}
